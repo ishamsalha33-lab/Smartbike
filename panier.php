@@ -37,7 +37,7 @@ if (!empty($_SESSION['panier'])) {
     <h2>Votre Panier</h2>
 
     <?php if (empty($produits_panier)): ?>
-        <p>Votre panier est vide pour le moment. 🚲</p>
+        <p>Votre panier est vide pour le moment.S</p>
     <?php else: ?>
         <table>
             <thead>

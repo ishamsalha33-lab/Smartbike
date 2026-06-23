@@ -36,7 +36,7 @@ $nb_articles_panier = isset($_SESSION['panier']) ? array_sum($_SESSION['panier']
 
 <header>
     <h1><a href="index.php">SmartBike</a></h1>
-    <a href="panier.php" class="Lien-panier">🛒 Mon Panier <span><?php echo $nb_articles_panier; ?></span></a>
+    <a href="panier.php" class="Lien-panier"> Mon Panier <span><?php echo $nb_articles_panier; ?></span></a>
 </header>
 
 <div class="container">
